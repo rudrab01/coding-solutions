@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int X;
+    scanf("%d", &X);
+    int Y = X*2;
+    printf("%d", Y);
+    return 0;
+    
+}
+
