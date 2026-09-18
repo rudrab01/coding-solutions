@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+	int X, Y;
+	scanf("%d %d", &X,&Y);
+	int C = 7-(X+Y);
+	printf("%d", C);
+	return 0;
+}
+
