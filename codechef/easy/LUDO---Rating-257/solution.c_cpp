@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    int T,Y,X,P;
+    scanf("%d", &T);
+    while (T>0)
+    {scanf("%d %d", &X, &Y);
+    P = X*Y ;
+    printf("%d\n", P);
+    T--;
+    }
+    return 0;
+}
