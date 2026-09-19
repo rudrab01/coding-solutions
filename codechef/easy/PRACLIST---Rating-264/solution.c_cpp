@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int X,Y,L;
+    scanf("%d %d", &X, &Y);
+    L= X-Y;
+    printf("%d ", L);
+    return 0;
+    
+}
+
