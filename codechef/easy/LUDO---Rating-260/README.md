@@ -49,12 +49,12 @@ NO
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T13:06:45.220Z  
+**Submitted:** 2026-09-19T13:22:34.397Z  
 
-```c_cpp
+```cpp
 #include <stdio.h>
 
 int main() {
