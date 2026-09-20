@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int T, N, X;
+    scanf("%d", &T);
+    while (T>0)
+    {
+    scanf("%d %d", &X , &N);
+    X = X/10;
+    printf("%d\n", X*N);
+    T--;
+    }
+    return 0;
+}
+
