@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int T, X;
-    scanf("%d", &T);
-    while(T!=0){
-        scanf("%d", &X);
-        if(X>=30){
-            printf("YES\n");
-        }
-        else{
-            printf("NO\n");
-        }
-        T--;
-    }
-    return 0;
+	 int N;
+	 scanf("%d",&N);
+	 if(N<=8 && N>=6){
+	     printf("YES\n");
+	 }
+	 else{
+	     printf("NO\n");
+	 }
+	 return 0;
+
 }
 
