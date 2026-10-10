@@ -49,14 +49,26 @@ A
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T06:11:53.474Z  
+**Submitted:** 2026-10-10T06:16:16.603Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
-	// your code goes here
-
+    int T, X, Y;
+    scanf("%d\n", &T);
+    while(T>0){
+        scanf("%d %d", &X,&Y);
+        if(X>Y){
+            printf("A\n");
+        }
+        else{
+            printf("B\n");
+        }
+        T--;
+    }
+    return 0;
+    
 }
 
 
