@@ -1,19 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int T, X, Y;
+    int T,X,Y;
     scanf("%d\n", &T);
     while(T>0){
-        scanf("%d %d", &X,&Y);
-        if(X>Y){
-            printf("A\n");
-        }
-        else{
-            printf("B\n");
-        }
+        scanf("%d %d", &X, &Y);
+        printf("%d\n",X-Y );
         T--;
     }
     return 0;
-    
 }
 
