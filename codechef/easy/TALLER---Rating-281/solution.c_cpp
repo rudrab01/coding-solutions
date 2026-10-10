@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int N,M,X,Y;
-    scanf("%d %d\n", &N ,&M);
-    scanf("%d %d\n", &X ,&Y);
-    printf("%d\n",(N*X)+(M*Y));
-    return 0;
+	// your code goes here
+
 }
 
