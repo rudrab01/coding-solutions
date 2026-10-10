@@ -49,17 +49,14 @@ A
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T06:11:44.012Z  
+**Submitted:** 2026-10-10T06:11:50.603Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
-    int N,M,X,Y;
-    scanf("%d %d\n", &N ,&M);
-    scanf("%d %d\n", &X ,&Y);
-    printf("%d\n",(N*X)+(M*Y));
-    return 0;
+	// your code goes here
+
 }
 
 
