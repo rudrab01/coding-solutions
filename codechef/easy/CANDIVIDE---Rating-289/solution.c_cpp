@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+	int T,N;
+	scanf("%d", &T);
+	while(T--){
+	    scanf("%d", &N);
+	    printf("%s\n", (N%3==0)?"YES":"NO");
+	}
+	return 0;
+
+}
+
