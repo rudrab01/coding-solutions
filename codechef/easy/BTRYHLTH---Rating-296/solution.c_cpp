@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int T,X;
+    scanf("%d", &T);
+    while(T--){
+        scanf("%d", &X);
+        printf("%s\n", (X>=80)?"YES":"NO");
+    }
+    return 0;
+}
+
