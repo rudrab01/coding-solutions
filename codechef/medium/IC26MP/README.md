@@ -85,7 +85,7 @@ In the second test case, every field already has a raincloud over it, so nothing
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T11:43:56.346Z  
+**Submitted:** 2026-10-18T11:44:28.331Z  
 
 ```c_cpp
 #include <stdio.h>
