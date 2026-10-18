@@ -91,7 +91,7 @@ Since all elements are equal, every cyclic shift is the same array, and every ad
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T11:32:54.055Z  
+**Submitted:** 2026-10-18T11:42:07.564Z  
 
 ```c_cpp
 #include <stdio.h>
