@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int t,x,a,b;
+    scanf("%d", &t);
+    while(t--){
+        scanf("%d %d %d", &x ,&a ,&b);
+        if(x<80){
+            printf("%d\n", ((80-x)*a)+(20*b));
+        }
+        else{
+            printf("%d\n", (100-x)*b);
+        }
+    }
+    return 0;
+}
+
