@@ -85,14 +85,13 @@ In the second test case, every field already has a raincloud over it, so nothing
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T11:44:12.333Z  
+**Submitted:** 2026-10-18T11:50:41.317Z  
 
 ```c_cpp
 #include <stdio.h>
 
 int main() {
-	// your code goes here
-
+    
 }
 
 
