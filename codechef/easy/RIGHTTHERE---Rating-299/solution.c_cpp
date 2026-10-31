@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+	int T,N,X;
+	scanf("%d" , &T);
+    while(T--){
+        scanf("%d %d", &N,&X);
+        printf("%s\n", (N<=X)?"YES":"NO");
+    }
+    return 0;
+}
