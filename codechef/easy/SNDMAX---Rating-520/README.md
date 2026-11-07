@@ -42,7 +42,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-07T16:51:01.161Z  
+**Submitted:** 2026-11-07T16:54:42.105Z  
 
 ```c_cpp
 #include <stdio.h>
