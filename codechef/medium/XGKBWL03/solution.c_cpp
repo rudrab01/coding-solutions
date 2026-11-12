@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int doubleIt(int num) {
+    num = num * 2;
+    return num;
+}
+
+int main() {
+    int myNumber;
+    scanf("%d", &myNumber);
+
+    myNumber=doubleIt(myNumber);
+    
+    printf("%d\n", myNumber);
+
+    return 0;
+}
