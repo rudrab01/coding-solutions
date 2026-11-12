@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+// This function should take an integer score.
+// If the score is even, it returns the score tripled.
+// Otherwise, it returns the score unchanged.
+int calculateFinalScore(int currentScore) {
+    if(currentScore%2 == 0)
+    return (currentScore*3);
+    else
+    return currentScore;
+
+}
+
+int main() {
+    int score;
+    scanf("%d", &score);
+    int finalScore = calculateFinalScore(score);
+    printf("%d\n", finalScore);
+    return 0;
+}
