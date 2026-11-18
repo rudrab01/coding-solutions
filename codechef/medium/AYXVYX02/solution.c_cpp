@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+#define SIZE 10
+
+int main() {
+    int ids[SIZE],i;
+    int firstDuplicate = 0;
+    bool found = false;
+
+    for (int i = 0; i < SIZE; i++) {
+        scanf("%d", &ids[i]);
+    }
+
+    for (i = 0; i < SIZE; i++){
+        for(int j=i+1; j< SIZE; i++){
+            if (ids[i]==ids[j]){
+                found = true;
+                break;
+            }
+        }
+        if (found)
+        break;
+    }
+    firstDuplicate = ids[i];
+
+    if (found) {
+        printf("%d\n", firstDuplicate);
+    } else {
+        printf("No duplicates\n");
+    }
+
+    return 0;
+}
